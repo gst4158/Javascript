@@ -1,0 +1,25 @@
+/*================================================================================================*/
+/* ======================================== SPLASH PAGE ========================================= */
+.splashwrapper {
+	position: fixed;
+	top: -100%; left: 0;
+	height: 100%; width: 100%;
+	z-index: 999;
+	background-color: #fff;
+
+	-webkit-transition: all 0.75s ease-in-out;
+	transition: all 0.75s ease-in-out;
+	
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; background-size: cover;
+	
+	&.active {
+		top: 0;
+	}
+
+	&.fast {
+		-webkit-transition: all 0s ease-in-out;
+		transition: all 0s ease-in-out;
+	}
+	
+}
